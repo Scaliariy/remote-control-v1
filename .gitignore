@@ -1,0 +1,10 @@
+.idea
+.venv
+*.log
+__pycache__
+unique_name.txt
+.streamlit
+build
+dist
+*.spec
+.secrets

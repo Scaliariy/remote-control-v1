@@ -1,0 +1,30 @@
+key$command$comment
+ip$ipconfig$запуск команды ipconfig
+si$systeminfo$вывести информацию о системе
+n$hostname$вывести имя ПК
+t$echo Your PC will be destroyed!$тестовая команда
+h$help$вывести список доступных команд
+d$date /t$вывести текущую дату
+setdate$date 09-10-2024$установить дату 09-10-2024
+tm$time /t$вывести текущее время
+settime$time 10:10:10 PM$установить время 10:10:10 PM
+u$whoami$вывести имя текущего пользователя
+p$ping 8.8.8.8$пинговать IP-адрес 8.8.8.8
+tr$tracert 8.8.8.8$трассировка маршрута к IP-адресу 8.8.8.8
+ns$nslookup google.com$получить DNS-информацию для google.com
+ft$netstat -an$вывести активные сетевые подключения
+sp$tasklist$вывести список активных процессов
+cls$cls$очистить экран консоли
+md$mkdir test_directory$создать директорию test_directory
+rd$rmdir test_directory$удалить директорию test_directory
+dir$dir$вывести содержимое текущей директории
+vol$vol$вывести информацию о диске
+cd$cd$сменить текущую директорию
+r$shutdown /r /t 0$перезагрузить ПК моментально
+off$shutdown /s /t 0$выключить ПК моментально
+block$rundll32.exe user32.dll,LockWorkStation$заблокировать ПК
+ad$-$скриншот AnyDesk
+ss$-$скриншот ПК
+update$-$обновить программу из FTP
+msg (Hello World!)$--$вывести сообщение на экран
+del filename.txt$del$удалить файл filename.txt из текущей директории
